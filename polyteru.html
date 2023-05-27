@@ -52,32 +52,39 @@ width : 1000px;
 height : 450px; 
 font-size : 20px;
 }
-.image-with-text {
-    display: flex;
-    align-items: center;
+.div2 {
+background-size : 350px 350px;
+background-image: url(images/polyteru/6-4.png);
+background-repeat : no-repeat;
+width : 1000px;
+height : 350px; 
+font-size : 20px;
+background-position : left;
+text-align: center;
+}
+#image1:hover {
+    background-image: url(images/polyteru/6-6.png);
+  }
+.div3{
+background-size : 350px 350px;
+background-image: url(images/polyteru/6-4.png);
+background-repeat : no-repeat;
+color:black;
+width : 1000px;
+height : 350px; 
+font-size : 20px;
+background-position : right;
+}
+#image2:hover {
+    background-image: url(images/polyteru/6-6.png);
   }
 
-  .image-with-text img {
-    margin-right: 10px;
-  }
-
-  
-  .left-text-right-image {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .left-text-right-image .text {
-    flex: 1;
-    margin-right: 20px;
-  }
   </style>
 </head>
 <body>
   <nav class="header">
   <ul style="margin-bottom: -30px; margin-top: -30px;" >
-    <li><h1><a href=".html" style="color:black; text-decoration:none;">DomesTic.</a></h1></li>
+    <li><h1><a href="index.html" style="color:black; text-decoration:none;">DomesTic.</a></h1></li>
     <li><h4><a href="웹프과제 2.html" style="text-decoration:none; color: black;">MEN</a></h4></li>
     <li><h4><a href="웹프과제 3.html" style="text-decoration:none;">WOMEN</a></h4></li>
     <li><h4><a href="웹프과제 4.html" style="text-decoration:none;">ARCHIVE</a></h4></li>
@@ -100,10 +107,10 @@ font-size : 20px;
   </ul>
   <ul>
     <li><h5><a href="웹프과제 3.html" style="text-decoration:none;"><strong>WOMEN</strong></a></h5></li>
-    <li><h5><a href="amomento.html" style="text-decoration:none;">AMOMENTO</a></h5></li>
-    <li><h5><a href="brownyard.html" style="text-decoration:none;">BROWNYARD</a></h5></li>
-    <li><h5><a href="recto.html" style="text-decoration:none;">RECTO</a></h5></li>
-    <li><h5><a href="youth.html" style="text-decoration:none;">YOUTH</a></h5></li>
+    <li><h5><a href="amomento1.html" style="text-decoration:none;">AMOMENTO</a></h5></li>
+    <li><h5><a href="brownyard1.html" style="text-decoration:none;">BROWNYARD</a></h5></li>
+    <li><h5><a href="recto1.html" style="text-decoration:none;">RECTO</a></h5></li>
+    <li><h5><a href="youth1.html" style="text-decoration:none;">YOUTH</a></h5></li>
   </ul>
 </nav>
 <nav class="section">
@@ -118,24 +125,17 @@ font-size : 20px;
     트렌드보다는 문화의 흐름에 영향을 받아 지속가능한 원단을 사용해<br>
     사계절에 걸쳐 기능적 우아함을 선보입니다.</h5>
   </div> 
-  <br><br><br><br>ARCHIVE<br><br>
-  <div class="image-with-text">
-    <img src="images/polyteru/6-4.png" width="350" height="350">
-    <p style="margin-left: 10%;">asdasd</p>
-  </div>
   <br><br><br><br><br><br><br><br>
-  <div class="left-text-right-image">
-    <div class="text">
-      <p >asdasdasd</p>
-      <p >asdasdasd</p>
-      <p >asdasdasd</p>
-      <p >asdasdasd</p>
-      <p >asdasdasd</p>
-      <p >asdasdasd</p>
-      <p >asdasdasd</p> 
-    </div>
-    <img src="images/polyteru/6-4.png" width="350" height="350">
+  <div class="div2" id="image1">
+    ARCHIVE<br>
+
   </div>
+
+  <br><br><br><br><br><br><br><br>
+  <div class="div3" id="image2">
+    RECOMMEND<br>
+  </div>
+  
 </nav>
 </body>
 </html>
